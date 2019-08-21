@@ -16,12 +16,13 @@ type Action struct {
 	EventMethod  event.Method `json:"eventMethod,omitempty"`
 }
 
-type Format string
 type Split string
 
 const (
 	CONVERSATION Split = "conversation"
 )
+
+type Format string
 
 const (
 	MP3 Format = "mp3"
